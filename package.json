@@ -1,0 +1,28 @@
+{
+  "name": "FutMXQuery",
+  "version": "0.0.1",
+  "private": true,
+  "by": "Enrique López Callejas",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+  
+    "express": "3.2.0", 
+    
+    "html2jade": "0.5.3",
+    "jade": "0.35.0",
+    "less-middleware": "0.1.12",
+    "moment": "= 1.7.0",
+    "bufferjs": "=1.1.0"
+  },
+  "devDependencies": {
+    "blanket": "~1.1.6",
+    "expect.js": "~0.2.0",
+    "request": "~2.30.0",
+    "simplesmtp": "= 0.1.18"
+  },
+  "optionalDependencies": {
+    "bufferjs": "=1.1.0"
+  }
+}
